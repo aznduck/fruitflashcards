@@ -1,10 +1,9 @@
-/* General styling for the card container */
 .flashcard {
     width: 80vw; 
     max-width: 500px; 
     height: 40vh; 
     max-height: 300px; 
-    margin: 80px; 
+    margin: 40px auto;
     border-radius: 10px; 
     display: flex;
   }
@@ -44,4 +43,13 @@
 
 .card.flip {
     transform: rotateY(180deg); /* Rotate the whole card to show the back */
+}
+
+@media (max-width: 600px) {
+    .flashcard {
+        height: 60vh;
+    }
+    .card-front, .card-back {
+        font-size: 1.2em; /* Adjust font size for smaller screens */
+    }
 }

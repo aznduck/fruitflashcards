@@ -1,5 +1,5 @@
 import Alert from "./components/Alert";
-import Cards from "./components/cards";
+import Cards from "./components/Cards";
 import "./App.css";
 
 function App() {
